@@ -1,60 +1,56 @@
+# 🌟 Calendario en Consola 🌟
 
-# Calendario en Consola
+Genera un calendario completo de un año, mes por mes.
 
-Este proyecto es un generador de calendario en la consola, que muestra el calendario de un año completo, mes por mes, con el nombre de cada mes resaltado en color y el día actual destacado de manera especial.
+## ✨ Características
 
-## Características
+- 🎨 **Colores**: Nombres de los meses en color, días actuales resaltados con estilo.
+- 📅 **Organización**: Los meses se muestran de manera ordenada y clara.
+- 💻 **Compatibilidad**: Funciona en la mayoría de las terminales que soportan colores ANSI (Linux, macOS y algunas de Windows).
+- 🗓 **Año personalizado**: Solo tienes que cambiar el año y ¡listo!
 
-- Muestra los meses de un año en un formato limpio y organizado.
-- Resalta el mes actual en color.
-- Resalta el día actual en color.
-- Compatible con la terminal/consola que soporte secuencias de escape ANSI (como la mayoría de terminales de Linux, macOS y algunas de Windows).
+## 📦 Requisitos
 
-## Requisitos
-
-Este proyecto utiliza solo bibliotecas estándar de Python, por lo que no es necesario instalar dependencias adicionales.
+Este proyecto usa **solo bibliotecas estándar de Python**, así que no necesitas instalar nada adicional.
 
 ### Bibliotecas utilizadas:
-- `calendar`: Para generar el calendario.
-- `locale`: Para establecer la configuración regional.
+
+- `calendar`: Para crear el calendario.
+- `locale`: Para manejar la configuración regional.
 - `datetime`: Para obtener la fecha actual.
 
-## Instalación
+## 🚀 Instalación
 
-1. Clona este repositorio en tu máquina local:
+1. Clona este proyecto:
 
    ```bash
    git clone https://github.com/tu-usuario/calendario-en-consola.git
    ```
 
-2. Accede al directorio del proyecto:
+2. Entra en el directorio del proyecto:
 
    ```bash
    cd calendario-en-consola
    ```
 
-3. El código está listo para ejecutarse. No necesitas instalar nada más si ya tienes Python instalado en tu sistema.
+3. solo ejecuta el script:
 
-## Uso
+   ```bash
+   python calendario.py
+   ```
 
-Para generar el calendario del año 2025, simplemente ejecuta el script en tu terminal:
+4. ¡Listo! El calendario se mostrara en la consola.
 
-```bash
-python calendario.py
-```
+## 🖌 Personalización
 
-El calendario se imprimirá en la consola, con los días actuales resaltados y los nombres de los meses con colores.
+- 🌈 **Colores**: Si quieres cambiar los colores, solo edita los códigos de color ANSI en el código.
+- 🗓 **Año**: Modifica la variable `yy` para cualquier año que desees.
+- 💡 **Meses por fila**: Ajusta cuántos meses aparecen por fila modificando `meses_por_fila`.
 
-## Personalización
+## 🤝 Contribuciones
 
-- **Colores**: Puedes modificar los códigos de color ANSI en el código para cambiar los colores del texto.
-- **Año**: Puedes cambiar el valor de la variable `yy` para generar el calendario de otro año.
-- **Meses por fila**: La variable `meses_por_fila` te permite ajustar la cantidad de meses que se muestran por fila.
+¡Este proyecto es todo sobre comunidad! Si tienes una idea genial o quieres hacer una mejora, ¡no dudes en hacer un pull request o abrir un issue! 🚀
 
-## Contribuciones
+## 📄 Licencia
 
-¡Las contribuciones son bienvenidas! Si tienes alguna mejora o sugerencia, no dudes en hacer un pull request o abrir un issue.
-
-## Licencia
-
-Este proyecto está bajo la Licencia MIT - consulta el archivo [LICENSE](LICENSE) para más detalles.
+Este proyecto está bajo la **Licencia MIT**, lo que significa que puedes hacer lo que quieras con él, solo dando el crédito correspondiente. 🎉
